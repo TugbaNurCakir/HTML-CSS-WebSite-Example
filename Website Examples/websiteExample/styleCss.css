@@ -1,0 +1,282 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+html{
+    font-size: 10px;
+}
+.container{
+    width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+   padding-top: .5rem;
+    padding-bottom: .5rem;
+   
+}
+main{
+    height: auto;
+}
+section{
+    width: 100%;
+    height: auto;
+   
+}
+#container{
+    width: 1140px;
+    margin: auto;
+    
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+#logo-box .logo{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #505050;
+    padding-bottom: 10px;
+    display: inline-block;
+   
+}
+.image1{
+    width: 10rem;
+    height: 10rem;
+    border-radius: ;50%;
+    background-image: url(img/istockphoto-818283560-170667a.jpg);
+    background-size: cover;
+    display: inline-block;   
+}
+#nav-links{
+padding-left: 30rem;
+}
+
+#nav-links .nav-item{
+    display: inline-block;
+    padding: 2.5rem;
+}
+#nav-links .nav-link{
+    color: #5F5F5F;
+    font-size: 1.5rem;
+}
+.img1{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+section h2{
+    text-align: center;
+    color: white;
+    padding: 5rem;
+    font-size: 30px;
+     font-family: 'Lato', sans-serif;
+    background-color: #2cacbb;
+    opacity : 0.7;
+}
+section h3{
+    text-align: center;
+    padding: 2rem 10rem;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    background-color: #2cacbb;
+    opacity : 0.4;
+}
+.button1{
+    background-color: #E04A40;
+    color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    margin: auto;
+    margin-left: 64rem;
+    margin-top: 10px;
+    border: none;
+     opacity : 0.9;
+}
+/*Main*/
+main h2{
+    color: #7B7B7B;
+    font-size: 28px;
+    padding-top: 6rem;
+    padding-left: 8rem;
+    padding-bottom: 2rem;
+}
+#container p{
+    color: grey;
+    font-size: 18px;
+    padding-left: 8rem;
+}
+
+.button2{
+    background-color: #E04A40;
+    color: white;
+   padding: 2rem 3rem;
+    border-radius: 5px;
+    margin-left: 34rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+    opacity : 0.9;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.nav-item:active{
+    background-color: skyblue;
+}
+/*Portfolio*/
+
+#portfolio{
+    height: 550px;
+    padding-bottom: 5rem;
+    padding-top: 10rem;
+    
+}
+#portfolio-images{
+    padding:0 10rem;
+}
+#portfolio h4{
+    font-size: 18px;
+    text-align: center;
+    color: grey;
+}
+#col{
+    float: left;
+    width: 33.3333%;
+    padding-left: 10rem;
+    padding-bottom: 10rem;
+}
+
+.portfolio-item{
+      
+    width: 100px;
+    height: 100px;
+}
+.portfolio-item img{
+   background-size: cover;
+    background-position: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #70D2DD;
+    height: 300px;
+}
+#hizala{
+    width: 75%;
+    margin: auto;
+   
+    height: 250px;
+    padding:8rem 8rem;
+}
+.left{
+    float: left;
+    width: 57%;
+    height: auto;
+}
+.right{
+    float: left;
+    width: 43%;
+    
+    height: 150px;
+}
+.left p, .right p{
+    color: white;
+    font-size: 23px;
+}
+.left a{
+    color: #E2625B;
+    font-size: 23px;
+}
+.right a{
+    color: #E2625B;
+    font-size: 23px;
+}
+.right .no{
+    color: #5F5F5F;
+    font-size: 17px;
+}
+.social li{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+   float: left;
+    margin-right: 10px;
+    margin-top: 35px;
+
+}
+
+.img-one{
+    width: 100%;
+    height: 100%;
+     border-radius: 50%;
+  
+}
+.img-two{
+    width: 100%;
+    height: 100%;
+     border-radius: 50%;
+
+}
+.img-three{
+    width: 100%;
+    height: 100%;
+     border-radius: 50%;
+   
+
+}
+.img-four{
+    width: 100%;
+    height: 100%;
+     border-radius: 50%;
+   
+
+}
+.img-five{
+    width: 100%;
+    height: 100%;
+     border-radius: 50%;
+   
+
+}
+.img-six{
+    width: 100%;
+    height: 100%;
+     border-radius: 50%;
+   background-position: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

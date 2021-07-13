@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+}
+#banner{
+    border: 1px solid black;
+    height: 700px;
+    width: 100%;
+    background-image: url(img/scott-webb-Vn39uEkX00s-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bannerInfo{
+    width: 55%;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 70px;
+}
+#bannerInfo h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+#bannerInfo p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+#button{
+    border: 1px solid #F34e3a;
+    width: 188px;
+    height: 50px;
+    margin: auto;
+    background-color: #F34e3a;
+    padding-top: 12px;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+#button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    float: left;
+}
+.iconBanner{
+    width: 40px;
+    height: 40px;
+    float: right;
+    background-image: url(img/right-arrow.png);
+    background-size: cover;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+#button:hover{
+    background-color: inherit;
+    cursor: pointer;
+}
+#button:hover a{
+    color: #F34e3a;
+    
+}
+#button:hover .iconBanner{
+    background-image: url(img/right-arrowHover.png);
+    
+}
+#info{
+    height: 330px;
+    width: 100%;
+    background-color: #29282D;
+    padding-top: 30px;
+}
+#box{
+    width: 20%;
+    height: 300px;
+    float: left;
+    margin-left: 60px;
+    
+}
+.iconOne{
+    background-image: url(img/heart.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin: auto;
+    
+}
+.iconOne:hover{
+    background-image: url(img/heartHover.png);
+}
+#box h1{
+    color: white;
+    text-align: center;
+}
+#box p{
+    color: white;
+    font-size: 16px;
+    padding: 0 20px;
+}
+.iconTwo{
+    background-image: url(img/laugh.png);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+.iconTwo:hover{
+    background-image: url(img/laughHover.png);
+}
+.iconThree{
+    background-image: url(img/thumbs-up.png);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+.iconThree:hover{
+    background-image: url(img/thumbs-upHover.png);
+}
+
+.iconFour{
+    background-image: url(img/right-arrowHover.png);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+.iconFour:hover{
+    background-image: url(img/right-arrow.png);
+}
+main{
+   
+    width: 100%;
+    height: auto;
+}
+#sablonlar{
+  
+    width: 75%;
+    height: 650px;
+    margin: auto;
+    margin-top: 50px;
+}
+#sablonlar h1{
+    text-align: center;
+    font-size: 35px;
+}
+.sablon{
+    width: 30%;
+    height: 500px;
+    background-color: #28292D;
+    float: left;
+    margin-right: 50px;
+}
+.sablon h1{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 65px;
+   
+}
+.sablon p{
+    color: #F34e3a;
+    font-size: 20px;
+    text-align: center;
+}
+.bilgi{
+    border-bottom: 1px solid black;
+    width: 80%;
+    height: auto;
+    margin: auto;
+   padding-top: 5px;
+}
+.bilgi h3{
+    color: white;
+    text-align: center;
+}
+footer{
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+    background-color: #28292D;
+}
+#hizala{
+    width: 75%;
+   
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+#footerInfo{
+    float: left;
+    width: 60%;
+height: auto;
+}
+#footerInfo ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 25px;
+}
+#footerInfo li{
+    color: white;
+    margin-top: 8px;
+}
+#footerInfo h1{
+    color: white;
+}
+#contact{
+    float: left;
+    width: 40%;
+height: auto;
+}
+#contact h1{
+    color: white;
+    
+}
+form input, textarea{
+    width: 70%;
+    height: 35px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #212121;
+}
+
+
+
+
+
+
